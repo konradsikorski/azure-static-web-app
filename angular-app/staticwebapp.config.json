@@ -1,6 +1,14 @@
 {
   "navigationFallback": {
     "rewrite": "/index.html",
-    "exclude": ["*.{css,scss,js,png,gif,ico,jpg,svg}"]
-  }
+    "exclude": [
+      "*.{css,scss,js,png,gif,ico,jpg,svg}"
+    ]
+  },
+  "routes": [
+    {
+      "route": "/.auth/login/aad",
+      "statusCode": 404
+    }
+  ]
 }
